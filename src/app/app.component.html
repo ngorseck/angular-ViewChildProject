@@ -1,0 +1,10 @@
+<router-outlet></router-outlet>
+<p>DEBUT PARENT</p>
+<app-home
+  [value]="inputText"
+  (myNewEvent)="getItem($event)"
+></app-home>
+
+
+<p> CHAMPS PARENT : {{ outputText }}</p>
+<p>FIN PARENT</p>

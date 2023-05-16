@@ -1,0 +1,8 @@
+<p>DEBUT CHILD</p>
+<p>home works! {{ value | stringUppercaseTest }}</p>
+<p>home works! {{ valueTestPipe | stringUppercaseTest   }}</p>
+<label>Add an item for parent : <input #newItem></label>
+<button (click)="addNewItem(newItem.value)" appMyDirective>Add to parent's</button>
+<br/>
+<label>Input for directive: <input appAppendDefaultText></label>
+<p>FIN CHILD</p>
